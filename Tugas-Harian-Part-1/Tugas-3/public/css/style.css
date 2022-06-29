@@ -1,0 +1,42 @@
+body{
+    background-color: #FFF9F9;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #FFFF;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header ul li{
+    padding: 0 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+#article-list{
+    border-width: 5px;
+    margin: auto;
+    width :600px;
+}
+
+footer{
+    background-color: #5264C7;
+    height: 40px;
+    width: 100%;
+}
+
+footer h5{
+    text-size: 20px;
+    color: white;
+}

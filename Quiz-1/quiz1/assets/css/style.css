@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins";
+    font-size: 22px;
+}
+
+.container {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.container_hero{
+    background-color : #146356;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+.container_hero div p{
+    font-size: 15px;
+    float: right;
+}
+
+.batch{
+    margin-left: 40px;
+}
+
+.container_bottom{
+    margin-top: 10px;
+}
+
+.container_bottom p{
+    font-size: 15px;
+}
+.container_bottom p a button{
+    padding: 0 6px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.container_support{
+    margin: 90px 0;
+    text-align: center;
+}
+
+.container_support p{
+    font-size: 15px;
+}
+
+.logo{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.logo img{
+    margin: auto;
+}
+
+
+.container_features_title{
+    width: 298px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid black;
+}
+
+.container_pricing_title{
+    width: 155px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid black;
+}
+.container_features{
+    margin: 80px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px 60px;
+}
+
+.container_features-card{
+    text-align: center;
+}
+
+.container_features-card p{
+    margin-top: 25px;
+    font-size: 10px;
+}
+
+.content-fix1{
+    margin-top: 60px !important;
+}
+
+.container_pricing{
+    margin-top: 60px;
+    background-color: #20201f;
+    padding: 30px 40px; 
+    display: grid; 
+    text-align: center;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 20px;
+}
+
+.container_pricing-card{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.container_pricing-card small{
+    font-size: 10px;
+}
+
+.container_pricing-card ul{
+    padding-top: 10px;
+}
+
+.container_pricing-card ul li{
+    font-size: 10px;
+    text-align: left !important;
+}
+
+/* Buatlah styling setiap section dibawah ini */
+
+
+/* Aturlah breakpoint dibawah ini menggunakan media queries agar responsive dibawah sini*/
+
+@media only screen and (max-width: 480px){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        place-items: center;
+    }
+
+    .container_hero{
+        background-color : #146356;
+        margin: 0 20px;
+        padding: 40px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        color: white;
+
+    }
+
+    .batch{
+        margin-left: 220px;
+    }
+
+    .container_features{
+        margin: 80px 20px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 30px;
+    }
+
+    .content-fix1{
+        margin-top: 25px !important;
+    }
+    
+    .container_pricing{
+        margin-top: 60px;
+        background-color: #20201f;
+        padding: 30px 40px; 
+        display: grid; 
+        text-align: center;
+        grid-template-columns: auto; 
+        grid-gap: 20px;
+    }
+
+    .logo{
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 40px 0;
+    }
+
+    .logo img{
+        width: 80px;
+        margin: auto;
+    }
+
+    .container_support{
+        width: 100%;
+        margin: 90px auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 480px) and ( max-width: 780px ){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        place-items: center;
+    }
+
+    .container_hero{
+        background-color : #146356;
+        margin: 0 20px;
+        padding: 40px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        color: white;
+
+    }
+
+    .batch{
+        margin-left: 350px;
+    }
+
+    .container_features{
+        margin: 80px 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+    }
+
+    .content-fix1{
+        margin-top: 25px !important;
+    }
+    
+    .container_pricing{
+        margin-top: 60px;
+        background-color: #20201f;
+        padding: 30px 40px; 
+        display: grid; 
+        text-align: center;
+        grid-template-columns: auto; 
+        grid-gap: 20px;
+    }
+
+    .logo{
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 40px 0;
+    }
+
+    .logo img{
+        width: 80px;
+        margin: auto;
+    }
+
+    .container_support{
+        width: 100%;
+        margin: 90px auto;
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,42 @@
+.tugas-10{
+  width : 30% ;
+  padding : 20px;
+  margin : 0 auto;
+  margin-top : 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tugas-10 img{
+  margin : auto;
+}
+
+.tugas-10 h1{
+  font-weight: 200;
+  color: #aaa;
+}
+
+.logo{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tugas-10 button{
+  width: 100%;
+  height : 50px;
+  border-radius: 3px;
+  color : white;
+  border : none;
+  background-color: rgb(0, 191, 255);
+}
+
+.tugas-10 button:hover{
+  background-color: red;
+}
+
+.checkbox-list{
+  margin: 10px;
+}
+
+.checkbox-list input{
+  transform: scale(1.5);
+}
